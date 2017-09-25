@@ -1,5 +1,9 @@
 # Antivmdetection
 
+Tested on Ubuntu 14.04 and 16.04 LTS, using several brands of computers and types, but there is no guarantee that it will work anyway.
+Prerequisites: python-dmidecode, cd-drive and acpidump: `apt-get install python-dmidecode libcdio-utils acpidump mesa-utils`
+Windows binaries: [DevManView](http://www.nirsoft.net/utils/device_manager_view.html) ([32](http://www.nirsoft.net/utils/devmanview.zip) or [64](http://www.nirsoft.net/utils/devmanview-x64.zip)-bit), [Volumeid.exe](https://docs.microsoft.com/en-us/sysinternals/downloads/volumeid), a text file with a list of computer/host and one with users.
+
 # Background:
 
 A script to help you create templates, which you can use with VirtualBox to make VM detection harder.
